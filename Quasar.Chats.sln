@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DADD9897-7500-4801-BB39-DA365B1E2F17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C4BCCF60-962F-4B7B-B742-CE41472B82BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3D7D9AF4-BFCB-4E7A-8A0D-EB5E07A70E2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0DDCD5BF-95B8-42A9-8E49-E649F4AA0C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quasar.Chats.Application.Web", "src\Application\Quasar.Chats.Application.Web\Quasar.Chats.Application.Web.csproj", "{089D9856-7436-46A0-A985-1E1AF67E2531}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{51967F65-3FDA-4208-8473-0B8CC36138A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4BCCF60-962F-4B7B-B742-CE41472B82BC} = {DADD9897-7500-4801-BB39-DA365B1E2F17}
+		{3D7D9AF4-BFCB-4E7A-8A0D-EB5E07A70E2C} = {DADD9897-7500-4801-BB39-DA365B1E2F17}
+		{0DDCD5BF-95B8-42A9-8E49-E649F4AA0C09} = {DADD9897-7500-4801-BB39-DA365B1E2F17}
+		{089D9856-7436-46A0-A985-1E1AF67E2531} = {C4BCCF60-962F-4B7B-B742-CE41472B82BC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51967F65-3FDA-4208-8473-0B8CC36138A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51967F65-3FDA-4208-8473-0B8CC36138A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089D9856-7436-46A0-A985-1E1AF67E2531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089D9856-7436-46A0-A985-1E1AF67E2531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089D9856-7436-46A0-A985-1E1AF67E2531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089D9856-7436-46A0-A985-1E1AF67E2531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
